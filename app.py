@@ -294,7 +294,7 @@ def section(sec):
             new_key = ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
             pending_approvals[new_key] = "pending"
             
-            whatsapp_link = "https://wa.me/YOUR_PHONE_NUMBER"
+            whatsapp_link = "https://wa.me/+60143153573"
             
             result_text = f"""
             ❌ Invalid or unapproved key. Please send the new key to my WhatsApp for approval.
@@ -462,7 +462,7 @@ TEMPLATE = '''
 <html>
 <head>
   <meta charset="UTF-8">
-  <title><h1>MANI WEB</h1></title>
+  <title><h1>𝗠𝗔𝗡𝗜 𝗥𝗔𝗝𝗣𝗨𝗧</h1></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -607,7 +607,7 @@ TEMPLATE = '''
   <div class="container">
     <img src="https://iili.io/FrYUNEX.jpg" alt="Profile Picture" class="profile-dp">
     <h1>🤍MANI 𝕎𝔼𝔹🤍</h1>
-    <h2>(𝕎𝔼𝔹 𝕄𝕌𝕃𝕋𝕀 ℂ𝕆ℕ𝕍𝕆)</h2>
+    <h2>(ＤＡＫＵ ３０２𝗦𝗘𝗥𝗩𝗘𝗥)</h2>
 
     {% if not section %}
       <div class="button-box"><a href="/section/1">◄ 1 – CONVO SERVER ►</a></div>
@@ -738,11 +738,11 @@ TEMPLATE = '''
   </div>
 
   <footer class="footer">
-    <p style="color: #bbb; font-weight: bold;">© 2022 MADE BY :- 𝕃𝔼𝔾𝔼ℕ𝔻 RAJPUT</p>
+    <p style="color: #bbb; font-weight: bold;">© 2022 MADE BY :- 𝐌𝐀𝐍𝐈 𝐑𝐀𝐉𝐏𝐔𝐓 </p>
     <p style="color: #bbb; font-weight: bold;">𝘼𝙇𝙒𝘼𝙔𝙎 𝙊𝙉 𝙁𝙄𝙍𝙀 🔥 𝙃𝘼𝙏𝙀𝙍𝙎 𝙆𝙄 𝙈𝙆𝘾</p>
     <div class="mb-3">
       <a href="https://www.facebook.com/100001702343748" style="color: #FFFF00;">Chat on Messenger</a>
-      <a href="https://wa.me/YOUR_PHONE_NUMBER" class="whatsapp-link">
+      <a href="https://wa.me/+60143153573" class="whatsapp-link">
         <i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
     </div>
   </footer>
